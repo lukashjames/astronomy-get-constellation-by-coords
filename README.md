@@ -43,10 +43,14 @@ Output:
 > Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss`
 
 2. Using format HH.hhhh, DD.dddd (Sirius, α CMa)
+
     $ ./constByCoords.pl --ra=6.75230861111 --dec=-16.7215361111
-    Output:
- RA =  6.7523 Dec = -16.7215  is in Constellation: CMa
-===============The Equinox for these positions is: 2000.0
+
+Output:
+
+>  RA =  6.7523 Dec = -16.7215  is in Constellation: CMa
+
+> ===============The Equinox for these positions is: 2000.0
 
 3. Using format HH:MM:SS.sss, DD:MM:SS.sss (Regulus, α Leo)
     $ ./constByCoords.pl --ra=10:08:22.053 --dec=+11:58:02.05
