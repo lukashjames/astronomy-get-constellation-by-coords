@@ -1,14 +1,12 @@
 Description
 ===========
 
-This script is Perl implementation of [VI/42 Identification of a Constellation From Position (Roman 1987)](http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42).
-
-Based on C code of program.c
+This script is Perl implementation of [VI/42 Identification of a Constellation From Position (Roman 1987)](http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42). Based on C code of program.c
 
 Requirements:
 -------------
 
-* data.dat from VI/42 (see link above) or from this package
+* data.dat from VI/42 ([direct link](http://cdsarc.u-strasbg.fr/vizier/ftp/cats/VI/42/data.dat)) or from this package
 * Getopt::Long
 * Math::Trig
     
@@ -16,21 +14,29 @@ Usage
 -----
 
 Usage (from console):
+
     $ ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
+
 Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss (see below)
 
 Options:
-    --ra — RA (α), right ascension of the celestial object
-    --dec — DEC (δ), declination of the celestial object
-    --epoch — Epoch of the coordinates (default 2000.0)
-    --quiet — Print only constellation name
+--------
+
+List of options:
+
+* --ra — RA (α), right ascension of the celestial object
+* --dec — DEC (δ), declination of the celestial object
+* --epoch — Epoch of the coordinates (default 2000.0)
+* --quiet — Print only constellation name
 
 Examples:
+---------
+
 1. Without any option:
     $ ./constByCoords.pl
-    Output:
-Usage: ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
-  Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss
+Output:
+`Usage: ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
+  Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss`
 
 2. Using format HH.hhhh, DD.dddd (Sirius, α CMa)
     $ ./constByCoords.pl --ra=6.75230861111 --dec=-16.7215361111
