@@ -80,4 +80,4 @@ Output:
 
 > Hya
 
-Some example data got from README file of VI/42
+Some example data got from [README](http://cdsarc.u-strasbg.fr/viz-bin/Cat?cat=VI%2F42&target=readme&) file of VI/42
