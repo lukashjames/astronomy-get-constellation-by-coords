@@ -1,5 +1,5 @@
-This **script** is Perl implementation of VI/42 Identification of a Constellation From Position (Roman 1987).
-http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42
+This script is Perl implementation of [VI/42 Identification of a Constellation From Position (Roman 1987)](http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42).
+
 Based on C code of program.c
 
 Requirements:
