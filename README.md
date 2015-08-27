@@ -1,11 +1,11 @@
-This script is Perl implementation of VI/42 Identification of a Constellation From Position (Roman 1987).
+This **script** is Perl implementation of VI/42 Identification of a Constellation From Position (Roman 1987).
 http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42
 Based on C code of program.c
 
 Requirements:
-    data.dat from VI/42 (see link above) or from this package
-    Getopt::Long
-    Math::Trig
+* data.dat from VI/42 (see link above) or from this package
+* Getopt::Long
+* Math::Trig
     
 Usage (from console):
     $ ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
