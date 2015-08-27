@@ -1,12 +1,20 @@
+Description
+===========
+
 This script is Perl implementation of [VI/42 Identification of a Constellation From Position (Roman 1987)](http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42).
 
 Based on C code of program.c
 
 Requirements:
+-------------
+
 * data.dat from VI/42 (see link above) or from this package
 * Getopt::Long
 * Math::Trig
     
+Usage
+-----
+
 Usage (from console):
     $ ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
 Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss (see below)
