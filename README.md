@@ -69,6 +69,7 @@ Output:
 Output:
 
 > RA =  6.2222 Dec = -81.1234  is in Constellation: Men
+
 > ===============The Equinox for these positions is: 1950.0
 
 **Example 5.** Using qiuet mode (print only constellation name)
