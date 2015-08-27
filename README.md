@@ -17,7 +17,7 @@ Usage (from console):
 
     $ ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
 
-Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss (see below)
+*Note:* instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss (see below)
 
 Options:
 --------
@@ -33,10 +33,12 @@ Examples:
 ---------
 
 1. Without any option:
+
     $ ./constByCoords.pl
+
 Output:
-`Usage: ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]`
-*Note:* instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss
+`Usage: ./constByCoords.pl [--ra HH.hhhh --dec DD.dddd [--epoch YYYY.0] [--quiet]]
+Note: instead HH.hhhh or DD.dddd you can use HH:MM:SS.ss or DD:MM:SS.ss`
 
 2. Using format HH.hhhh, DD.dddd (Sirius, α CMa)
     $ ./constByCoords.pl --ra=6.75230861111 --dec=-16.7215361111
