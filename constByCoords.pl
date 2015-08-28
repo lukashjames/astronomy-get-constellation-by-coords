@@ -5,6 +5,7 @@ use warnings;
 use Math::Trig;
 #use Data::Dumper;
 use Getopt::Long;
+use FindBin qw /$Bin/;
 
 my $CONVH = 0.2617993878;
 my $CONVD = 0.1745329251994e-01;
@@ -45,7 +46,7 @@ $DEC = $D / $CONVD;
 # THE LOWER BOUNDARY OF THE CONSTELLATION WHEN THE UPPER AND LOWER
 # RIGHT ASCENSIONS FOR THE CONSTELLATION BOUND THE ENTERED RIGHT
 # ASCENSION
-open my $f2, '<', 'data.dat' or die "open() failed: $!\n";
+open my $f2, '<', $FindBin::Bin . '/data.dat' or die "open() failed: $!\n";
 #seek ($f2, 0, 0);
 while (<$f2>)
 {
