@@ -18,10 +18,10 @@ Usage:
 
     MariaDB [astronomy]> SELECT @result;
 
-+---------+
-| @result |
-+---------+
-| CMa     |
-+---------+
-1 row in set (0,00 sec)
+    +---------+
+    | @result |
+    +---------+
+    | CMa     |
+    +---------+
+    1 row in set (0,00 sec)
 
