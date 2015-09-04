@@ -14,5 +14,5 @@ Usage:
 
     MariaDB [astronomy]> CALL get_constellation_by_coords(6.75230861111, -16.7215361111, 0, @result);
     MariaDB [astronomy]> SELECT @result;
-    | CMa     |
+    **CMa**
 
